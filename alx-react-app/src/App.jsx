@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import WelcomeMessage from 'src/components/WelcomeMessage.jsx';
-import Header from '<src/components/Header';
-import MainContent from 'src/components/MainContent';
-import Footer from 'src/components/Footer';
+import reactLogo from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/e6a49b7934626cf5ea96d9aa12b8d774505651d6/alx-react-app/src/assets/react.svg'
+import viteLogo from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/e6a49b7934626cf5ea96d9aa12b8d774505651d6/alx-react-app/public/vite.svg'
+import 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/e6a49b7934626cf5ea96d9aa12b8d774505651d6/alx-react-app/src/App.css'
+import WelcomeMessage from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/42ffe1c73b855971c09448b3debdb9a302ec5ada/alx-react-app/src/components/WelcomeMessage.jsx';
+import Header from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/1717a7f95e30e0bde81aef14bb17f2fa6abc0d0e/alx-react-app/src/components/Header.jsx';
+import MainContent from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/1717a7f95e30e0bde81aef14bb17f2fa6abc0d0e/alx-react-app/src/components/MainContent.jsx';
+import Footer from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/1717a7f95e30e0bde81aef14bb17f2fa6abc0d0e/alx-react-app/src/components/Footer.jsx';
 
 
 
