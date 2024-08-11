@@ -3,6 +3,10 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import WelcomeMessage from 'src/components/WelcomeMessage.jsx';
+import Header from '<src/components/Header';
+import MainContent from 'src/components/MainContent';
+import Footer from 'src/components/Footer';
+
 
 
 function App() {
@@ -33,6 +37,11 @@ function App() {
       <div>
             <WelcomeMessage />
             {/* Other components or elements */}
+        </div>
+        <div>
+            <Header />
+            <MainContent />
+            <Footer />
         </div>
     </>
   )
