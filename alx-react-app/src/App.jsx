@@ -11,7 +11,6 @@ function App() {
   return (
     <>
       <div>
-         <WelcomeMessage />
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -31,6 +30,10 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <div>
+            <WelcomeMessage />
+            {/* Other components or elements */}
+        </div>
     </>
   )
 }
