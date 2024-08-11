@@ -6,7 +6,7 @@ import WelcomeMessage from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/bl
 import Header from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/1717a7f95e30e0bde81aef14bb17f2fa6abc0d0e/alx-react-app/src/components/Header.jsx';
 import MainContent from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/1717a7f95e30e0bde81aef14bb17f2fa6abc0d0e/alx-react-app/src/components/MainContent.jsx';
 import Footer from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/1717a7f95e30e0bde81aef14bb17f2fa6abc0d0e/alx-react-app/src/components/Footer.jsx';
-
+import UserProfile from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/main/alx-react-app/src/components/UserProfile.jsx';
 
 
 function App() {
@@ -43,6 +43,9 @@ function App() {
             <MainContent />
             <Footer />
         </div>
+        <div className="App">
+      <UserProfile name="Alice" age="25" bio="Loves hiking and photography" />
+    </div>
     </>
   )
 }
