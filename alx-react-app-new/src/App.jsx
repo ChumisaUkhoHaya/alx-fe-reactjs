@@ -7,7 +7,7 @@ import Header from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/1717a
 import MainContent from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/1717a7f95e30e0bde81aef14bb17f2fa6abc0d0e/alx-react-app/src/components/MainContent.jsx';
 import Footer from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/1717a7f95e30e0bde81aef14bb17f2fa6abc0d0e/alx-react-app/src/components/Footer.jsx';
 import UserProfile from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/main/alx-react-app/src/components/UserProfile.jsx';
-
+import Counter from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/main/alx-react-app-new/src/components/Counter.jsx';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -45,6 +45,10 @@ function App() {
         </div>
         <div className="App">
       <UserProfile name="Alice" age="25" bio="Loves hiking and photography" />
+    </div>
+    <div className="App">
+      <h1>Counter Application</h1>
+      <Counter />
     </div>
     </>
   )
