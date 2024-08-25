@@ -7,6 +7,8 @@ import RecipeList from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/m
 import AddRecipeForm from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/main/recipe-sharing-app/src/components/AddRecipeForm.jsx';
 import RecipeDetails from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/main/recipe-sharing-app/src/components/RecipeDetails.jsx';
 import SearchBar from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/main/recipe-sharing-app/src/components/SearchBar.jsx';
+import FavoritesList from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/main/recipe-sharing-app/src/components/FavoritesList.jsx';
+import RecommendationsList from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/main/recipe-sharing-app/src/components/RecommendationsList.jsx';
 
 
 function App() {
