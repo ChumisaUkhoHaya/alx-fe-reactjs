@@ -4,6 +4,7 @@ import viteLogo from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/mai
 import 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/main/recipe-sharing-app/src/App.css'
 import RecipeList from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/main/recipe-sharing-app/src/components/RecipeList.jsx';
 import AddRecipeForm from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/main/recipe-sharing-app/src/components/AddRecipeForm.jsx';
+import RecipeDetails from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/main/recipe-sharing-app/src/components/RecipeDetails.jsx';
 
 
 function App() {
@@ -36,6 +37,11 @@ function App() {
       <AddRecipeForm />
       <RecipeList />
     </div>
+    <Routes>
+          <Route path="/" element={<RecipeList />} />
+          <Route path="/recipe/:recipeId" element={<RecipeDetails />} />
+        </Routes>
+    
     </>
   )
 }
