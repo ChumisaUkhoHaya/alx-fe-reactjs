@@ -6,6 +6,7 @@ import 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/main/recipe-shari
 import RecipeList from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/main/recipe-sharing-app/src/components/RecipeList.jsx';
 import AddRecipeForm from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/main/recipe-sharing-app/src/components/AddRecipeForm.jsx';
 import RecipeDetails from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/main/recipe-sharing-app/src/components/RecipeDetails.jsx';
+import SearchBar from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/main/recipe-sharing-app/src/components/SearchBar.jsx';
 
 
 function App() {

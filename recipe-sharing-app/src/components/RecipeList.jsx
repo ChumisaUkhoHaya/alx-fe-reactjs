@@ -4,6 +4,12 @@ import { useRecipeStore } from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactj
 
 const RecipeList = () => {
   const recipes = useRecipeStore(state => state.recipes);
+  const filterRecipes = useRecipeStore(state => state.filterRecipes);
+
+  // Ensure recipes are filtered initially
+  useEffect(() => {
+    filterRecipes();
+  }, [filterRecipes]);
 
   return (
     <div>
