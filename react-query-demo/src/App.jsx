@@ -3,7 +3,7 @@ import reactLogo from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/4d
 import viteLogo from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/4dba59e7bcc23eebfa9727b46877c2a3ea0a74d5/form-handling-react/public/vite.svg'
 import 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/4dba59e7bcc23eebfa9727b46877c2a3ea0a74d5/form-handling-react/src/App.css'
 import { QueryClient, QueryClientProvider } from 'react-query';
-import PostsComponent from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/e7010ea9a1862f2f7b5c355e2d890dc632a5654c/form-handling-react/src/components/PostsComponent.js';
+import PostsComponent from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/002023e60ac913bfdc3fc9676b12c4c3dc138a32/react-query-demo/src/components/PostsComponent.jsx';
 
 function App() {
   const [count, setCount] = useState(0)
