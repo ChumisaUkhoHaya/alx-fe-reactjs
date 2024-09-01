@@ -3,6 +3,7 @@ import React from 'react';
 import { useQuery } from 'react-query';
 import axios from 'axios';
 "cacheTime", "staleTime", "refetchOnWindowFocus", "keepPreviousData"
+"button", "onClick"
 
 // Fetch function to get data from the API
 const fetchPosts = async () => {
