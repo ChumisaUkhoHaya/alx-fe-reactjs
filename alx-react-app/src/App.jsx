@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState } from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/main/alx-react-app/node_modules/@types/react'
 import reactLogo from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/e6a49b7934626cf5ea96d9aa12b8d774505651d6/alx-react-app/src/assets/react.svg'
 import viteLogo from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/e6a49b7934626cf5ea96d9aa12b8d774505651d6/alx-react-app/public/vite.svg'
 import 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/e6a49b7934626cf5ea96d9aa12b8d774505651d6/alx-react-app/src/App.css'
