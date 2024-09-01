@@ -65,6 +65,7 @@ function App() {
           </Route>
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:postId" element={<BlogPost />} />
+          "/blog/:id"
         </Routes>
       </>
     </Router>
