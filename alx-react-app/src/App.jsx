@@ -28,7 +28,7 @@ function App() {
           count is {count}
         </button>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          Edit <code>https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/58df284b7596c96973876224f015631cf246f0e8/alx-react-app/src/App.jsx</code> and save to test HMR
         </p>
       </div>
       <p className="read-the-docs">
