@@ -1,9 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/main/form-handling-react/node_modules/@types/react'
+import reactLogo from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/4dba59e7bcc23eebfa9727b46877c2a3ea0a74d5/form-handling-react/src/assets/react.svg'
+import viteLogo from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/4dba59e7bcc23eebfa9727b46877c2a3ea0a74d5/form-handling-react/public/vite.svg'
+import 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/4dba59e7bcc23eebfa9727b46877c2a3ea0a74d5/form-handling-react/src/App.css'
 import { QueryClient, QueryClientProvider } from 'react-query';
-import PostsComponent from './components/PostsComponent';
+import PostsComponent from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/e7010ea9a1862f2f7b5c355e2d890dc632a5654c/form-handling-react/src/components/PostsComponent.js';
 
 function App() {
   const [count, setCount] = useState(0)
