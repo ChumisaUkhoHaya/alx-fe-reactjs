@@ -5,14 +5,13 @@ import viteLogo from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/020
 import 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/020e4534405f0f94a9e205dc44b98d4aa2cd22de/react-router-advanced/src/App.css';
 
 // Import your components for routing
-import Home from './components/Home';
-import Profile from './components/Profile';
-import ProfileDetails from './components/ProfileDetails';
-import ProfileSettings from './components/ProfileSettings';
-import Blog from './components/Blog';
-import BlogPost from './components/BlogPost';
-import Login from './components/Login';
-import ProtectedRoute from './components/ProtectedRoute';
+import Profile from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/70565aee26d3156684a690bb15f4baa11c11ad5f/react-router-advanced/src/components/Profile.jsx';
+import ProfileDetails from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/70565aee26d3156684a690bb15f4baa11c11ad5f/react-router-advanced/src/components/ProfileDetails.jsx';
+import ProfileSettings from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/70565aee26d3156684a690bb15f4baa11c11ad5f/react-router-advanced/src/components/ProfileSettings.jsx';
+import Blog from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/70565aee26d3156684a690bb15f4baa11c11ad5f/react-router-advanced/src/components/Blog.jsx';
+import BlogPost from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/70565aee26d3156684a690bb15f4baa11c11ad5f/react-router-advanced/src/components/BlogPost.jsx';
+import Login from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/70565aee26d3156684a690bb15f4baa11c11ad5f/react-router-advanced/src/components/Login.jsx';
+import ProtectedRoute from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/70565aee26d3156684a690bb15f4baa11c11ad5f/react-router-advanced/src/components/ProtectedRoute.jsx';
 
 function App() {
   const [count, setCount] = useState(0);
