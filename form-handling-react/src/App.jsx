@@ -3,7 +3,7 @@ import reactLogo from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/4d
 import viteLogo from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/4dba59e7bcc23eebfa9727b46877c2a3ea0a74d5/form-handling-react/public/vite.svg'
 import 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/4dba59e7bcc23eebfa9727b46877c2a3ea0a74d5/form-handling-react/src/App.css'
 import RegistrationForm from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/75db4a88af6302e8806342996baf0d6cedc1b8ee/form-handling-react/src/components/RegistrationForm.jsx';
-import FormikForm from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/main/form-handling-react/src/components/FormikForm.jsx';
+import FormikForm from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/740eb593330187f3c5a722ecc53ffcb41463580f/form-handling-react/src/components/formikForm.js';
 
 function App() {
   const [count, setCount] = useState(0)
