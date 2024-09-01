@@ -1,7 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/main/form-handling-react/node_modules/@types/react'
+import reactLogo from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/4dba59e7bcc23eebfa9727b46877c2a3ea0a74d5/form-handling-react/src/assets/react.svg'
+import viteLogo from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/4dba59e7bcc23eebfa9727b46877c2a3ea0a74d5/form-handling-react/public/vite.svg'
+import 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/4dba59e7bcc23eebfa9727b46877c2a3ea0a74d5/form-handling-react/src/App.css'
+import RegistrationForm from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/4dba59e7bcc23eebfa9727b46877c2a3ea0a74d5/form-handling-react/src/components/RegistrationForm.js';
+import FormikForm from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/4dba59e7bcc23eebfa9727b46877c2a3ea0a74d5/form-handling-react/src/components/FormikForm.js';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -28,6 +30,12 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <div className="App">
+      <h1>Registration Form with Controlled Components</h1>
+      <RegistrationForm />
+      <h1>Registration Form with Formik</h1>
+      <FormikForm />
+    </div>
     </>
   )
 }
