@@ -2,6 +2,8 @@ import { useState } from 'react'
 import reactLogo from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/main/tailwind-react-integration/src/assets/react.svg'
 import viteLogo from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/main/tailwind-react-integration/public/vite.svg'
 import 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/main/tailwind-react-integration/src/App.css'
+import UserProfile from 'https://github.com/ChumisaUkhoHaya/alx-fe-reactjs/blob/c16fefc24c605aa096e876c31a6bd5dc7044e1a6/tailwind-react-integration/src/component/UserProfile.jsx'
+
 
 function App() {
   const [count, setCount] = useState(0)
