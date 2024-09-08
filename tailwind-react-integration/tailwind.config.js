@@ -8,9 +8,9 @@ export default {
   theme: {
     extend: {},
   },
+  purge:{
   variants: {
     extend: {}, // Extend variants for existing utilities if needed
   },
   plugins: [],
-}
-
+}}
