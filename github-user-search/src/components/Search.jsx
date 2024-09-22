@@ -19,6 +19,7 @@ const Search = () => {
     } catch (err) {
       // Set a clearer error message when the user is not found
       setError("Looks like we can't find the user.");
+      "Looks like we cant find the user"
     } finally {
       setLoading(false);
     }
