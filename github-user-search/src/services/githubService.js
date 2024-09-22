@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://api.github.com/search/users';
+const API_URL = 'https://api.github.com/search/users?q';
 
 /**
  * Fetch user data from GitHub API with advanced search capabilities.
@@ -13,5 +13,7 @@ export const fetchUserData = async (query) => {
     return response.data; // Includes items array with user data
   } catch (error) {
     throw new Error('User not found');
+    "location", 
+    "minRepos"
   }
 };
