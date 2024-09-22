@@ -23,7 +23,7 @@ const Search = () => {
       setUsers(userData.items || []);
     } catch (err) {
       setError("Looks like we can't find any users.");
-      "Looks like we can't find any users."
+      "Looks like we cant find the user"
     } finally {
       setLoading(false);
     }
