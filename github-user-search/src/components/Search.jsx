@@ -39,9 +39,9 @@ const Search = () => {
       {error && <p style={{ color: 'red' }}>{error}</p>}
       {user && (
         <div>
-          <h2>{user.name}</h2>
-          <img src={user.avatar_url} alt={`${user.name}'s avatar`} width={100} />
-          <p>{user.bio}</p>
+           <h2>{user.login}</h2> {/* Display the user's login name */}
+          <img src={user.avatar_url} alt={`${user.login}'s avatar`} width={100} />
+          <p>{user.bio || 'No bio available.'}</p>
           <a href={user.html_url} target="_blank" rel="noopener noreferrer">View Profile</a>
         </div>
       )}
