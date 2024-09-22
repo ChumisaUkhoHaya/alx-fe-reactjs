@@ -17,6 +17,7 @@ const Search = () => {
       const userData = await fetchUserData(username);
       setUser(userData);
     } catch (err) {
+      // Set a clearer error message when the user is not found
       setError("Looks like we can't find the user.");
     } finally {
       setLoading(false);
@@ -39,7 +40,7 @@ const Search = () => {
       {error && <p style={{ color: 'red' }}>{error}</p>}
       {user && (
         <div>
-           <h2>{user.login}</h2> {/* Display the user's login name */}
+          <h2>{user.login}</h2> {/* Display the user's login name */}
           <img src={user.avatar_url} alt={`${user.login}'s avatar`} width={100} />
           <p>{user.bio || 'No bio available.'}</p>
           <a href={user.html_url} target="_blank" rel="noopener noreferrer">View Profile</a>
@@ -50,3 +51,4 @@ const Search = () => {
 };
 
 export default Search;
+
